@@ -1,0 +1,28 @@
+{
+  "name": "ypp-ui",
+  "version": "1.0.0",
+  "description": "ypp-ui自定义UI库",
+  "main": "index.js",
+  "scripts": {
+    "build:dist": "cross-env NODE_ENV=development webpack --config  build/webpack.config.js",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config build/webpack.config.js"
+  },
+  "keywords": [],
+  "author": "fengzhiyan",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "vue": "^2.6.14",
+    "vue-loader": "^15.9.7",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.40.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
