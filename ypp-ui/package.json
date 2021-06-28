@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build:dist": "cross-env NODE_ENV=development webpack --config  build/webpack.config.js",
+    "build:docs": "cross-env NODE_ENV=development webpack --config  build/webpack.docs.js",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config build/webpack.config.js"
   },
   "keywords": [],
