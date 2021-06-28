@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
-import MeUI from '../src/index';
-// import MeUI from '../lib/me-vue-ui.common';
+// import MeUI from '../src/index';
+import MeUI from '../lib/ypp-vue-ui.common';
 import hljs from 'highlight.js';
 import demoBlock from './components/demo-block.vue';
 
@@ -21,7 +21,7 @@ router.afterEach(() => {
     const blocks = document.querySelectorAll('pre code:not(.hljs)');
     Array.prototype.forEach.call(blocks, hljs.highlightBlock);
   });
-  document.title = 'me-ui';
+  document.title = 'ypp-ui';
 });
 
 new Vue({
