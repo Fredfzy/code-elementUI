@@ -1,5 +1,5 @@
 {
-  "name": "ypp-ui",
+  "name": "yppfzy-ui",
   "version": "0.1.0",
   "description": "A Vue.js 2.X UI Toolkit for Web",
   "main": "lib/ypp-vue-ui.common.js",
