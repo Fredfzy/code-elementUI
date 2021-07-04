@@ -1,0 +1,26 @@
+{
+  "name": "yppfzy-theme-chalk",
+  "version": "1.0.0",
+  "description": "yppfzy component chalk theme.",
+  "main": "lib/index.css",
+  "style": "lib/index.css",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "build": "gulp build"
+  },
+  "keywords": [
+    "yppfzy",
+    "theme"
+  ],
+  "author": "fengzhiyan",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-sass": "^5.0.0"
+  }
+}
